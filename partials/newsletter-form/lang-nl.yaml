@@ -1,0 +1,19 @@
+newsletterForm:
+    header: Meldt u aan voor onze nieuwsbrief!
+    body: Blijf op de hoogte van onze campagnes en mis nooit meer een aktie! Na de aanmelding krijgt u een bevestigings email.
+    titleEmail: E-mail adres
+    titleFirstName: Voornaam
+    titleLastName: Achternaam
+    titleLanguage: Taal
+    languages:
+        nl: Nederlands (Nederlands)
+        de: Duits (Deutsch)
+        en: Engels (English)
+        es: Spaans (Español)
+        fr: Frans (Français)
+    titleCountry: Land
+    titleGender: Geschlacht
+    gender:
+        m: Man
+        f: Vrouw
+    buttonSubmit: Verstuur

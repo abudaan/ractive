@@ -1,0 +1,31 @@
+.fade {
+  transition: color 1s linear 0s; }
+
+.fade-in {
+  color: black; }
+
+.fade-out {
+  color: red; }
+
+html {
+  color: grey; }
+
+.header {
+  padding: 20px;
+  color: #333; }
+
+.navbar {
+  padding: 20px;
+  color: #111; }
+
+.newsletter-form {
+  padding: 20px; }
+  .newsletter-form input {
+    margin: 10px 0; }
+  .newsletter-form input[type=text], .newsletter-form input[type=email] {
+    min-width: 300px; }
+
+label {
+  color: black;
+  font-size: 12px;
+  font-family: monospace; }

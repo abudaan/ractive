@@ -1,0 +1,19 @@
+newsletterForm:
+    header: Melden Sie sich für unseren Newsletter an!
+    body: Bleiben Sie auf dem Laufenden mit unseren Kampagnen und verpassen Sie keine unserer Aktionen mehr! Nach der Anmeldung erhalten Sie eine Bestätigung per E-Mail.
+    titleEmail: E-mail Adresse
+    titleFirstName: Vorname
+    titleLastName: Nachname
+    titleLanguage: Sprache
+    languages:
+        de: Deutsch (Deutsch)
+        en: Englisch (English)
+        nl: Holländisch (Nederlands)
+        es: Spanisch (Español)
+        fr: Französisch (Français)
+    titleCountry: Land
+    titleGender: Geschlecht
+    gender:
+        m: Männlich
+        f: Weiblich
+    buttonSubmit: Absenden

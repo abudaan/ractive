@@ -1,0 +1,52 @@
+<div class="newsletter-form">
+  <div class="newsletter-form-text">{{ i18n.newsletterForm.body }}</div>
+  <form class="pure-form-stacked">
+    <label>{{ i18n.newsletterForm.titleEmail }}
+      <input type="email" placeholder="">
+    </label>
+
+    <label>{{ i18n.newsletterForm.titleFirstName }}
+      <input type="text" placeholder="">
+    </label>
+
+    <label>{{ i18n.newsletterForm.titleLastName }}
+      <input type="text" placeholder="">
+    </label>
+
+    <!-- TODO: place languages in the right order dependent on locale -->
+
+    <label>{{ i18n.newsletterForm.titleLanguage }}</label>
+    <label>{{ i18n.newsletterForm.languages.de }}
+      <input type="radio">
+    </label>
+    <label>{{ i18n.newsletterForm.languages.en }}
+      <input type="radio">
+    </label>
+    <label>{{ i18n.newsletterForm.languages.nl }}
+      <input type="radio">
+    </label>
+    <label>{{ i18n.newsletterForm.languages.es }}
+      <input type="radio">
+    </label>
+    <label>{{ i18n.newsletterForm.languages.fr }}
+      <input type="radio">
+    </label>
+
+    <label>{{ i18n.newsletterForm.titleCountry }}
+      <input type="input">
+    </label>
+
+    <label>{{ i18n.newsletterForm.titleGender }}</label>
+    <label>{{ i18n.newsletterForm.gender.m }}
+      <input type="radio">
+    </label>
+    <label>{{ i18n.newsletterForm.gender.f }}
+      <input type="radio">
+    </label>
+
+    <!--
+    <button type="submit" class="pure-button pure-button-primary">{{  newsletterForm.buttonSubmit }}</button>
+    -->
+    <input type="button" on-click="validateForm" value="{{ i18n.newsletterForm.buttonSubmit }}"/>
+  </form>
+</div>

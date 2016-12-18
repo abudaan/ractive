@@ -1,0 +1,19 @@
+newsletterForm:
+    header: Subscribe to our newsletter!
+    body: Stay informed about our campains and don't miss out on any promotion! After submitting this form you will receive a confirmation email.
+    titleEmail: E-mail Address
+    titleFirstName: First name
+    titleLastName: Last name
+    titleLanguage: Language
+    languages:
+        en: English (English)
+        de: German (Deutsch)
+        nl: Dutch (Nederlands)
+        es: Spanish (Español)
+        fr: French (Français)
+    titleCountry: Country
+    titleGender: Gender
+    gender:
+        m: Male
+        f: Female
+    buttonSubmit: Submit

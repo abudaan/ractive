@@ -1,0 +1,11 @@
+languages:
+  - en
+  - nl
+  - de
+site:
+  pages:
+    - home
+  partials:
+    - navbar
+    - header
+    - newsletter-form

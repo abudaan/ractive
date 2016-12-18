@@ -1,0 +1,7 @@
+.env
+tmp
+node_modules
+todo.txt
+npm-debug.log
+build
+setpath.sh
